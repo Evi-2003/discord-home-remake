@@ -29,11 +29,93 @@
     font-style: normal;
     font-display: swap;
 }
+/* I'M USING THIS FONT FOR EDUCATIONAL PURPOSES */
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-Bold.woff2') format('woff2'),
+        url('fonts/ggsans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/* I'M USING THIS FONT FOR EDUCATIONAL PURPOSES */
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-Semibold.woff2') format('woff2'),
+        url('fonts/ggsans-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+/* I'M USING THIS FONT FOR EDUCATIONAL PURPOSES */
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-Medium.woff2') format('woff2'),
+        url('fonts/ggsans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+/* I'M USING THIS FONT FOR EDUCATIONAL PURPOSES */
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-ExtraBold.woff2') format('woff2'),
+        url('fonts/ggsans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/* I'M USING THIS FONT FOR EDUCATIONAL PURPOSES */
+@font-face {
+    font-family: 'gg sans Normal';
+    src: url('fonts/ggsans-NormalItalic.woff2') format('woff2'),
+        url('fonts/ggsans-NormalItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+/* I'M USING THIS FONT FOR EDUCATIONAL PURPOSES */
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-MediumItalic.woff2') format('woff2'),
+        url('fonts/ggsans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+/* I'M USING THIS FONT FOR EDUCATIONAL PURPOSES */
+@font-face {
+    font-family: 'gg sans Normal';
+    src: url('fonts/ggsans-BoldItalic.woff2') format('woff2'),
+        url('fonts/ggsans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+/* I'M USING THIS FONT FOR EDUCATIONAL PURPOSES */
+@font-face {
+    font-family: 'gg sans Normal';
+    src: url('fonts/ggsans-Normal.woff2') format('woff2'),
+        url('fonts/ggsans-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /*  ----------------------------------------------------------------------------------
                                 ! HTML5 RESET !
 ----------------------------------------------------------------------------------     */
+main{
+  width: 100vw;
+  margin: 0;
+}
 body,h1,h2{
     margin: 0;
+    overflow-x: hidden;
+}
+*{
+  box-sizing: border-box;
 }
 /*  ----------------------------------------------------------------------------------
                                 ! HEADER !
@@ -100,7 +182,7 @@ header nav button{
 header nav button{
     display: none;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1000px) {
     header nav button{
         background: none;
         border: none;
@@ -132,15 +214,270 @@ header nav button{
     }
 
   }
+  /* Main standaard styling */
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section article h2{
+    font-family: 'gg sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+  }
 /*  ----------------------------------------------------------------------------------
                                 ! CONTENT / SECTIE 1 !
 ----------------------------------------------------------------------------------     */
   main section:nth-of-type(1){
     background-color: #434EE4;
-    height: 80vh;
-  }
-  main section h1{
+    height: 70vh;
+    position: relative;
+    justify-items: center;
+    align-items: center;
     color: white;
+    width: 100vw;
+  }
+  main section:nth-of-type(1) article{
+    justify-items: center;
+    align-items: center;
+    display: grid; 
+    grid-template-columns: auto;
+    z-index: 2;
+  }
+  article h1{
     font-family: 'Ginto-nord-900', sans-serif;
     font-weight: 900;
+    font-size: 2.7em;
+    grid-column: 1 / span 2;
   }
+  article p{
+    font-size: 1.25em;
+    width: 50vw;
+    text-align: center;
+    font-family: 'gg sans Normal', sans-serif;
+    font-weight: 500;
+    margin-bottom: 2em;
+    grid-column: 1 / span 2;
+  }
+  main section:nth-of-type(1) article a:nth-of-type(1){
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'gg sans Normal', sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+    grid-column: 1;
+    justify-self: end;
+    margin-right: 1em;
+  }
+  main section:nth-of-type(1) article a:nth-of-type(2){
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'gg sans Normal', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #313338;
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+    grid-column: 2;
+    justify-self: start;
+    margin-left: 1em;
+  }
+  main section:nth-of-type(1) img:first-of-type{
+    position: absolute;
+    left: -18em;
+    bottom: 0;
+    z-index: 1;
+    width: 40em;
+    height: 20em;
+  }
+  main section:nth-of-type(1) img:nth-of-type(2){
+    position: absolute;
+    right: -14em;
+    bottom: 0;
+    z-index: 1;
+    width: 40em;
+    height: 20em;
+  }
+  main section:nth-of-type(1) img:nth-of-type(3){
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+  }
+  @media only screen and (max-width: 1000px) {
+    article p{
+      width: 100vw;
+    }
+    main section:nth-of-type(1){
+      height: 100%;
+      padding: 5em;
+      text-align: center;
+    }
+    main section:nth-of-type(1) h1{
+      width: 100%;
+    }
+    main section:nth-of-type(1) img:nth-of-type(2){
+      display: none;
+    }
+    main section:nth-of-type(1) img:first-of-type{
+      display: none;
+    }
+    main section:nth-of-type(1) article a:nth-of-type(1){
+      grid-column: span 2;
+      justify-self: center;
+    }
+    main section:nth-of-type(1) article a:nth-of-type(2){
+      display: none;
+    }
+  }
+  /* ---------------------------
+        ! ARTICLE STYLING !
+  ------------------------------ */
+  main section{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding-bottom: 5em;
+    padding-top: 5em;
+  }
+  main section:not(:first-child) article{
+    margin: 1em;
+    max-width: 70vw;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  main section article img{
+    width: 100%;
+    grid-row: span 4; 
+  }
+    /* ---------------------------
+        ! TWEEDE SECTIE STYLING !
+  ------------------------------ */
+  main section:nth-of-type(2) article img{
+    grid-column: 1 / span 2; 
+  }
+  main section:nth-of-type(2) article h2{
+    grid-row: 2;
+    grid-column: 3 / span 2;
+  }
+  main section:nth-of-type(2) article p{
+    width: fit-content;
+    grid-row: 3;
+    grid-column: 3 / span 2;
+    text-align: left;
+  }
+ 
+    /* ---------------------------
+        ! DERDDE SECTIE STYLEN STYLING !
+  ------------------------------ */
+  section:nth-of-type(3){
+    background-color: #f6f6f6;
+  }
+  main section:nth-of-type(3) article img{
+    grid-column: 3 / span 3; 
+  }
+  main section:nth-of-type(3) article h2{
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
+  main section:nth-of-type(3) article p{
+    width: fit-content;
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    text-align: left;
+  }
+
+      /* ---------------------------
+        ! VIERDE SECTIE STYLING !
+  ------------------------------ */
+  main section:nth-of-type(4) article img{
+    grid-column: 1 / span 2; 
+  }
+  main section:nth-of-type(4) article h2{
+    grid-row: 2;
+    grid-column: 3 / span 2;
+  }
+  main section:nth-of-type(4) article p{
+    width: fit-content;
+    grid-row: 3;
+    grid-column: 3 / span 2;
+    text-align: left;
+  }
+        /* ---------------------------
+        ! VIJFDE SECTIE STYLING !
+  ------------------------------ */
+  main section:nth-of-type(5){
+    background-color: #f6f6f6;
+    padding: 10em;
+  }
+  main section:nth-of-type(5) article{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+  }
+  main section:nth-of-type(5) article img{
+    grid-column: 1; 
+    grid-row: 3; 
+  }
+  main section:nth-of-type(5) article h2{
+    grid-row: 1;
+    grid-column: 1;
+    text-align: center;
+  }
+  main section:nth-of-type(5) article p{
+    grid-row: 2;
+    grid-column: 1;
+    text-align: center;
+  }
+  @media only screen and (max-width: 1000px) {
+    main section:not(:first-child) article{
+      max-width: 90vw;
+    }
+    main section:not(:first-child) article img{
+      width: 100vw;
+      grid-row: 1!important;
+      grid-column: span 4;
+    }
+    main section:not(:first-child) article h2{
+      grid-row: 2;
+      grid-column: span 4;
+      width: 100%;
+    }
+    main section:not(:first-child) article p{
+      grid-row: 3;
+      width: 100%;
+      grid-column: span 4;
+    }
+  }
+  
+          /* ---------------------------
+        ! ANIMATIE FADE IN !
+  ------------------------------ */
+  @keyframes fadein{
+    0%{
+      opacity: 0%;
+    }
+    100%{
+      opacity: 100%;
+    }
+  } 
+  section:first-of-type{
+    opacity: 100;
+  }
+  section{
+    opacity: 0;
+  }
+  section:active{
+    transition: all 1s ease-out;
+    animation-name: fadein;
+    animation-duration: 1s;
+  }
+  .fadein {
+    transition: all 1s ease-out;
+    animation: fadein 1s forwards;
+  }
+  
