@@ -240,5 +240,4 @@
   6: https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver
   7: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary
   8: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
-  9. Marten Paul Moolenaar
 </details>
