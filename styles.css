@@ -1388,6 +1388,7 @@ table tbody tr {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+  justify-content: center;
 }
 .nitro section:nth-of-type(5) h2 {
   font-family: var(--gg-font);
@@ -1481,6 +1482,9 @@ table tbody tr {
   }
   .nitro section:nth-of-type(5) img {
     display: none;
+  }
+  .nitro section:nth-of-type(5) ul{
+    gap: 0.1em;
   }
   .nitro section:nth-of-type(5) ul li button {
     font-size: var(--font-size-between);

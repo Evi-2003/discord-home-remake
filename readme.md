@@ -9,7 +9,7 @@
 
   #### Je focus:
   Responsive
- 
+
 </details>
 
 
@@ -24,8 +24,8 @@
   ### Je opdracht:
   <a href="https://discord.com" target="_blank">https://discord.com</a>
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  <span>Discord Home</span> 
+  #### Screenshot(s) van de eerste pagina (small screen):
+  <span>Discord Home</span>
   <img src="img/screenshots/page1-1.png" width="375px" alt="bovenste gedeelte van de pagina header/eerste sectie">
   <img src="img/screenshots/page1-3.png" width="375px" alt="tweede sectie van de pagina">
   <img src="img/screenshots/page1-4.png" width="375px" alt="derde sectie van de pagina">
@@ -37,8 +37,8 @@
   <img src="img/screenshots/page1-10.png" width="375px" alt="tiende sectie van de pagina">
   <img src="img/screenshots/page1-11.png" width="375px" alt="elfde sectie van de pagina">
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <span>Discord Nitro</span> 
+  hier de naam van de pagina
+  <span>Discord Nitro</span>
 <img src="img/screenshots/page2-1.png" width="375px" alt="Eerste sectie van de pagina">
 <img src="img/screenshots/page2-2.png" width="375px" alt="Tweede sectie van de pagina">
 <img src="img/screenshots/page2-3.png" width="375px" alt="Derde sectie van de pagina">
@@ -75,13 +75,13 @@
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
+  ### de hele pagina:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
+  ### dynamisch deel (bijv menu):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
+  ### wellicht nog een dynamisch deel (bijv filter):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
@@ -96,7 +96,7 @@
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  hier dit ging goed dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
@@ -129,7 +129,7 @@
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  hier dit ging goed &amp; dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
@@ -176,7 +176,7 @@
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  hier dit ging goed &amp; dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
@@ -212,7 +212,7 @@
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
-  ### Dit ging goed/Heb ik geleerd: 
+  ### Dit ging goed/Heb ik geleerd:
   Korte omschrijving met plaatjes
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
@@ -233,7 +233,7 @@
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
+  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 

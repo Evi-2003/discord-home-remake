@@ -44,7 +44,7 @@ function clearActiveState() {
   buttons.forEach((button) => {
     button.classList.remove('active');
   });
-  
+
   faqTabs.forEach((section) => {
     section.classList.add('hidden');
   });
