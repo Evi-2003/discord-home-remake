@@ -1345,7 +1345,7 @@ table tbody tr {
   }
   .nitro section:nth-of-type(4) section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 5em;
   }
@@ -1357,28 +1357,28 @@ table tbody tr {
   .nitro section:nth-of-type(4) section img:first-of-type {
     grid-row: 2;
     grid-column: 1;
+    align-self: center;
   }
   .nitro section:nth-of-type(4) section img:not(:first-of-type) {
     grid-row: 3;
     grid-column: 1;
+    align-self: center;
+  }
+  .nitro section:nth-of-type(4) section a{
+    padding: 1em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    align-self: center;
   }
   .nitro section:nth-of-type(4) section a:first-of-type {
     grid-row: 2;
-    grid-column: 2;
-    padding: 1em 3em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
+    grid-column: 2 / span 3;
   }
   .nitro section:nth-of-type(4) section a:not(:first-of-type) {
     grid-row: 3;
-    grid-column: 2;
-    padding: 1em 3em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
+    grid-column: 2 / span 3;
   }
 }
 /* ------------ START FAQ
