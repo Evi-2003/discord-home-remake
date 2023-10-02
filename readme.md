@@ -78,13 +78,13 @@
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina:
-  <img src="img/screenshots/3.jng" width="375px" alt="Korte schets home pagina">
+  <img src="img/screenshots/3.jpg" width="375px" alt="Korte schets home pagina">
 
   ### dynamisch deel (bijv menu):
-  <img src="img/screenshots/2.jng" width="375px" alt="Menu op mobiel">
+  <img src="img/screenshots/2.jpg" width="375px" alt="Menu op mobiel">
 
   ### wellicht nog een dynamisch deel (bijv filter):
-  <img src="img/screenshots/1.jng" width="375px" alt="Prijstabel">
+  <img src="img/screenshots/1.jpg" width="375px" alt="Prijstabel">
 
 </details>
 
