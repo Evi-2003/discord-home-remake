@@ -581,7 +581,9 @@ section:nth-of-type(3) {
   grid-column: 1;
   margin-top: 1em;
 }
-
+.index section:nth-of-type(6) a:hover{
+  background-color: #7B83EE;
+}
 /* ---------------------------
         ! ANIMATIE FADE IN !
   ------------------------------ */
@@ -767,6 +769,7 @@ footer nav > a {
   footer nav ul:first-of-type {
     grid-row: 10;
     grid-column: 1;
+    display: none;
   }
   footer nav h2:nth-of-type(2) {
     grid-column: 1;
@@ -921,12 +924,17 @@ section:first-of-type:has(video) p {
   text-align: center;
   align-self: end;
   background-color: white;
+  color: var(--text-color);
   padding: 0.5em 1em 0.5em 1em;
   border-radius: 0.5em;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.nitro section:nth-of-type(2) article a:hover{
+  color: var(--purple-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .nitro section:nth-of-type(2) article:first-of-type {
   background-color: #3d76c5;
@@ -1176,7 +1184,10 @@ section:first-of-type:has(video) img {
   border-radius: 3em;
   font-size: var(--gg-font-size-small);
   font-family: var(--gg-font);
-  font-weight: semibold;
+}
+.nitro section:nth-of-type(3) button:hover{
+  scale: 1.05;
+  background-color: #3B3B3B;
 }
 @media only screen and (max-width: 1000px) {
   .nitro section:nth-of-type(3) > section {
@@ -1308,6 +1319,11 @@ table tbody tr {
   background-color: #5a65ea;
   padding: 0.5em 1.5em;
   border-radius: 2em;
+}
+.nitro section:nth-of-type(4) a:hover{
+  scale: 1.05;
+  background-color: #7788D4;
+
 }
 .nitro section:nth-of-type(4) table tr:nth-of-type(18) td:nth-of-type(3) {
   border-bottom: 0.1em solid #ab4dbb;
@@ -1527,6 +1543,11 @@ table tbody tr {
   border-radius: 2em;
   grid-column: 1;
   margin-top: 1em;
+  text-decoration: none;
+}
+.nitro section:nth-of-type(6) a:hover{
+  color: var(--purple-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 @media only screen and (max-width: 1000px) {
   .nitro section:nth-of-type(6) {

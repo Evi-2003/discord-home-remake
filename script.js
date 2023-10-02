@@ -1,4 +1,6 @@
-/* Dat de sections binnen komen tijdens het scrollen */
+/* Dat de sections binnen komen tijdens het scrollen 
+ BRON: ChatGPT en https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver
+*/ 
 let secties = [...document.querySelectorAll('section')];
 
 const scroller = new IntersectionObserver(
