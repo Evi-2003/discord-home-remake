@@ -58,20 +58,6 @@
 
 
 
-## Toegankelijkheidstest 1/2 (week 1)
-
-<details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-  - Op de Nitro pagina van Discord werkt het prijstabel niet goed, het wordt niet goed voorgelezen
-  - Discord heeft het vrij goed gedaan, sommige afbeelding ter sier worden niet voorgelezen
-  - De social media iconen worden niet goed voorgelezen
-</details>
-
-
-
 ## Breakdownschets (week 1)
 
 <details>
@@ -145,24 +131,6 @@
 
 </details>
 
-
-
-
-
-## Toegankelijkheidstest 2/2 (week 4)
-
-<details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-  - Op mijn Nitro pagina wordt het prijs tabel goed voorgelezen 
-  - Op mijn pagina's worden nog teveel afbeeldingen voorgelezen. 
-  - Soms hoor je bij mij "Empty Group", dat moet ik ook nog even uitzoeken. 
-  - Er kwamen kleine fouten uit mijn HTML validator, die ga ik ook oplossen. 
-  
-
-</details>
 
 
 
